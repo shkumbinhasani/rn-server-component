@@ -1,0 +1,16 @@
+{
+  "private": true,
+  "scripts": {
+    "prepare": "nitropack prepare",
+    "dev": "nitropack dev",
+    "build": "nitropack build",
+    "preview": "node .output/server/index.mjs"
+  },
+  "dependencies": {
+    "@tanstack/react-query": "^5.17.1",
+    "nitropack": "latest"
+  },
+  "devDependencies": {
+    "@types/react-native": "0.73.0"
+  }
+}
